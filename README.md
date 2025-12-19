@@ -1,14 +1,14 @@
 # command-interpreter
-[Вступление](#вступление) | [Обзор функций](#скрипт) | [Установка](#установка)
+[Вступление](#вступление) | [Обзор функций](#скрипт) | [Установка](#установка) | [Обновления](CHANGELOG.md)
 ***
 ## Вступление
 **Вчера я начал изучать ``C#``, синтаксис, фишки, и ``настройку Dotnet`` вместе с ``Rider (Ide)``**
 
 **Я написал этот скрипт как пример, сейчас он ``в альфе``, поскольку я написал его только сегодня, но в дальнейшем будут ``обновления`` и перенос таких проектов как:**
 
-* **[HidlowToolsCLI]()**
-* **[HidlowToolsGUI]()**
-* **[Debugconsole]()** **(В разработке)**
+* **[HidlowToolsCLI](https://github.com/hiikikomorii/hidlowToolsCLI)**
+* **[HidlowToolsGUI](https://github.com/hiikikomorii/hidlowToolsGUI)**
+* **[Debugconsole](https://github.com/hiikikomorii/hidlowToolsGUI/blob/main/hidlowGUI/files/consoledebug/debugconsole.py)** **(В разработке)**
 ***
 ## Скрипт
 **На данный момент ``(19.12.2025)`` скрипт имеет ``6 функций``**
@@ -25,11 +25,10 @@
 ***
 
 ## Установка
-**Dotnet version - ``[.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)**
+**Dotnet version - [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)**
 
-**Нужно скачать папку ``scr``, затем извлечь ее из zip-архива, после чего открываем ``cmd`` и вписываем следующие команды:**
-``
-cd "путь к ConsoleApp3.csproj"
-dotnet run``
+**Нужно скачать папку ``scr``, затем извлечь ее из zip-архива, после чего открываем ``cmd`` и вписываем следующие команды:**  
+
+``cd "путь к ConsoleApp3.csproj"`` затем ``dotnet run``
 
 **После этих действий, скрипт должен запуститься.**
